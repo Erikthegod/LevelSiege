@@ -1,0 +1,44 @@
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe.config
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\bin\Debug\LevelSiege.pdb
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csprojResolveAssemblyReference.cache
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.Properties.Resources.resources
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csproj.GenerateResource.Cache
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.exe
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.pdb
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.titulo.resources
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.ventanadejuego.resources
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe.config
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\obj\Debug\LevelSiege.exe
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\obj\Debug\LevelSiege.pdb
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\bin\Debug\LevelSiege.pdb
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csprojResolveAssemblyReference.cache
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\obj\Debug\LevelSiege.titulo.resources
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\obj\Debug\LevelSiege.Properties.Resources.resources
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\obj\Debug\LevelSiege.ventanadejuego.resources
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csproj.GenerateResource.Cache
+G:\ISAIAS\ED\trimestre 3\LevelSiege\LevelSiege\obj\Debug\LevelSiege.JUEGO.resources
+C:\Users\isote\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.JUEGO.resources
+G:\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe.config
+G:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.exe
+G:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.pdb
+G:\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe
+G:\LevelSiege\LevelSiege\bin\Debug\LevelSiege.pdb
+G:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csprojResolveAssemblyReference.cache
+G:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.JUEGO.resources
+G:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.titulo.resources
+G:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.Properties.Resources.resources
+G:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.ventanadejuego.resources
+G:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csproj.GenerateResource.Cache
+F:\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe.config
+F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.exe
+F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.pdb
+F:\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe
+F:\LevelSiege\LevelSiege\bin\Debug\LevelSiege.pdb
+F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csprojResolveAssemblyReference.cache
+F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.JUEGO.resources
+F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.titulo.resources
+F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.Properties.Resources.resources
+F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.ventanadejuego.resources
+F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csproj.GenerateResource.Cache
