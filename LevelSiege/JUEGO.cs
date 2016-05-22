@@ -114,7 +114,7 @@ private void barma_Click(object sender, EventArgs e)
                     monstruos[i].SetBounds(monstruos[i].Location.X, (monstruos[i].Location.Y - 2), 50, 50);
 
                 }
-                if (monstruos[i].Location.Y == 54)
+                if (monstruos[i].Location.Y == 56)
                 {
                     monstruos[i].SetBounds((monstruos[i].Location.X + 2), monstruos[i].Location.Y, 50, 50);
 
@@ -147,32 +147,30 @@ private void barma_Click(object sender, EventArgs e)
                 {
                     abc.SetBounds((abc.Location.X + 2), abc.Location.Y, 50, 3);
                 }
-                if (abc.Location.X == 130 && abc.Location.Y != 52)
+                if (abc.Location.X == 130 && abc.Location.Y != 46)
                 {
                     abc.SetBounds(abc.Location.X, (abc.Location.Y - 2), 50, 3);
 
                 }
-                if (abc.Location.Y == 54)
+                if (abc.Location.Y == 48)
                 {
                     abc.SetBounds((abc.Location.X + 2), abc.Location.Y, 50, 3);
-
-
                 }
-                if (abc.Location.X == 314 && abc.Location.Y != 200)
+                if (abc.Location.X == 314 && abc.Location.Y != 190)
                 {
                     abc.SetBounds(abc.Location.X, (abc.Location.Y + 2), 50, 3);
 
                 }
-                if (abc.Location.Y == 200)
+                if (abc.Location.Y == 190)
                 {
                     abc.SetBounds(abc.Location.X + 2, abc.Location.Y, 50,3);
                 }
-                if (abc.Location.X == 600 && abc.Location.Y != 136)
+                if (abc.Location.X == 600 && abc.Location.Y != 126)
                 {
                     abc.SetBounds(abc.Location.X, (abc.Location.Y - 2), 50, 3);
                 }
                 else
-                if (abc.Location.Y < 138 && abc.Location.X >= 600 && abc.Location.X < 851)
+                if (abc.Location.Y < 128 && abc.Location.X >= 600 && abc.Location.X < 851)
                 {
                     abc.SetBounds((abc.Location.X + 2), abc.Location.Y, 50, 3);
 
