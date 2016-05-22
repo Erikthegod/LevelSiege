@@ -21,7 +21,6 @@ namespace LevelSiege
         Label disparo;
         Label monstruo;
         ProgressBar vida;
-        Label medidor = new Label();
         int posicionx;
         int posiciony;
         int ultimo = 0;
@@ -64,8 +63,6 @@ namespace LevelSiege
             vida = new ProgressBar();
             vida.Value = 100;
             vida.SetBounds(xv, yv, 50, 3);
-            medidor.Text = "" + vida.Value;
-            d.Controls.Add(medidor);
             vidas.Add(vida);
             d.Controls.Add(vida);
 
