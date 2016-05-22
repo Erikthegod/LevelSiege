@@ -42,3 +42,14 @@ F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.titulo.resources
 F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.Properties.Resources.resources
 F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.ventanadejuego.resources
 F:\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csproj.GenerateResource.Cache
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe.config
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.exe
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.pdb
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csprojResolveAssemblyReference.cache
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.JUEGO.resources
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.titulo.resources
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.Properties.Resources.resources
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.ventanadejuego.resources
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csproj.GenerateResource.Cache
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe
+C:\Users\kinton\Desktop\LevelSiege\LevelSiege\bin\Debug\LevelSiege.pdb

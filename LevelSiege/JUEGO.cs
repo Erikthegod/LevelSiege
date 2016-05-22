@@ -34,9 +34,6 @@ namespace LevelSiege
         {
             InitializeComponent();
             tiempom.Enabled = false;
-            label1.Text = "" + label1.Location.X;
-          
-
         }
 
 
