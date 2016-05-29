@@ -31,13 +31,15 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JUEGO));
             this.d = new System.Windows.Forms.Panel();
+            this.pbjohn = new System.Windows.Forms.ProgressBar();
             this.paneljohn = new System.Windows.Forms.Panel();
             this.barma = new System.Windows.Forms.Button();
             this.tiempod = new System.Windows.Forms.Timer(this.components);
             this.tiempom = new System.Windows.Forms.Timer(this.components);
             this.crear = new System.Windows.Forms.Timer(this.components);
             this.compcoli = new System.Windows.Forms.Timer(this.components);
-            this.pbjohn = new System.Windows.Forms.ProgressBar();
+            this.lbmunicion = new System.Windows.Forms.Label();
+            this.lbmonstruos = new System.Windows.Forms.Label();
             this.d.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +48,8 @@
             this.d.AutoSize = true;
             this.d.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("d.BackgroundImage")));
             this.d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.d.Controls.Add(this.lbmonstruos);
+            this.d.Controls.Add(this.lbmunicion);
             this.d.Controls.Add(this.pbjohn);
             this.d.Controls.Add(this.paneljohn);
             this.d.Controls.Add(this.barma);
@@ -55,6 +59,14 @@
             this.d.TabIndex = 1;
             this.d.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.d.MouseMove += new System.Windows.Forms.MouseEventHandler(this.d_MouseMove);
+            // 
+            // pbjohn
+            // 
+            this.pbjohn.Location = new System.Drawing.Point(892, 123);
+            this.pbjohn.Name = "pbjohn";
+            this.pbjohn.Size = new System.Drawing.Size(69, 10);
+            this.pbjohn.TabIndex = 2;
+            this.pbjohn.Value = 100;
             // 
             // paneljohn
             // 
@@ -68,7 +80,7 @@
             // 
             // barma
             // 
-            this.barma.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barma.Font = new System.Drawing.Font("Nasalization", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barma.Location = new System.Drawing.Point(273, 313);
             this.barma.Name = "barma";
             this.barma.Size = new System.Drawing.Size(75, 23);
@@ -96,13 +108,22 @@
             this.compcoli.Enabled = true;
             this.compcoli.Tick += new System.EventHandler(this.compcoli_Tick);
             // 
-            // pbjohn
+            // lbmunicion
             // 
-            this.pbjohn.Location = new System.Drawing.Point(892, 123);
-            this.pbjohn.Name = "pbjohn";
-            this.pbjohn.Size = new System.Drawing.Size(69, 10);
-            this.pbjohn.TabIndex = 2;
-            this.pbjohn.Value = 100;
+            this.lbmunicion.Location = new System.Drawing.Point(740, 9);
+            this.lbmunicion.Name = "lbmunicion";
+            this.lbmunicion.Size = new System.Drawing.Size(100, 23);
+            this.lbmunicion.TabIndex = 3;
+            this.lbmunicion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbmonstruos
+            // 
+            this.lbmonstruos.Location = new System.Drawing.Point(861, 9);
+            this.lbmonstruos.Name = "lbmonstruos";
+            this.lbmonstruos.Size = new System.Drawing.Size(100, 23);
+            this.lbmonstruos.TabIndex = 4;
+            this.lbmonstruos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbmonstruos.Click += new System.EventHandler(this.lbmonstruos_Click);
             // 
             // JUEGO
             // 
@@ -130,5 +151,7 @@
         private System.Windows.Forms.Timer compcoli;
         private System.Windows.Forms.Panel paneljohn;
         private System.Windows.Forms.ProgressBar pbjohn;
+        private System.Windows.Forms.Label lbmonstruos;
+        private System.Windows.Forms.Label lbmunicion;
     }
 }

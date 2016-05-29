@@ -28,11 +28,19 @@ namespace LevelSiege
         int y = 180;
         int xv = 0;
         int yv = 170;
+        int municion = 100;
+        int municionrest;
+        int contador = 0;
+        int monstrest;
+        int monstruostotal=10;
+        int velocidad=50;
 
         public JUEGO()
         {
             InitializeComponent();
             tiempom.Enabled = false;
+            municionrest = municion;
+            monstrest = monstruostotal;
             
         }
 
@@ -53,7 +61,7 @@ namespace LevelSiege
         }
         public void crearmonstruos()
         {
-            if (monstruos.Capacity < 10)
+            if (monstruos.Capacity <= monstruostotal)
             {
                 tiempom.Enabled = true;
                 monstruo = new Label();
@@ -75,17 +83,37 @@ namespace LevelSiege
 
 private void barma_Click(object sender, EventArgs e)
         {
-            laser.Play();
-            disparo = new Label();
-            posicionx = barma.Location.X;
-            posiciony = barma.Location.Y;
-            disparo.SetBounds(posicionx, posiciony - 50, 50, 55);
-            disparo.Image = Properties.Resources.disparo;
-            disparo.BackColor = Color.Transparent;
-            disparos.Add(disparo);
-            d.Controls.Add(disparo);
-            tiempod.Enabled = true;
-            ultimo++;
+            if (contador < municion)
+            {
+                contador++;
+                laser.Play();
+                disparo = new Label();
+                posicionx = barma.Location.X;
+                posiciony = barma.Location.Y;
+                disparo.SetBounds(posicionx, posiciony - 50, 50, 55);
+                disparo.Image = Properties.Resources.disparo;
+                disparo.BackColor = Color.Transparent;
+                disparos.Add(disparo);
+                d.Controls.Add(disparo);
+                tiempod.Enabled = true;
+                ultimo++;
+                municionrest--;
+                lbmunicion.Text = "Municion "+municionrest;
+                
+            }
+            else
+            {
+                foreach(Label m in monstruos)
+                {
+                    if (m.Visible)
+                    {
+                        MessageBox.Show("HAS PERDIDO");
+                        pbjohn.Visible = false;
+                        paneljohn.BackgroundImage = Properties.Resources.headstone_312540_960_720;
+                        break;
+                    }
+                }
+            }
         }
 
         private void tiempod_Tick(object sender, EventArgs e)
@@ -99,7 +127,7 @@ private void barma_Click(object sender, EventArgs e)
 
         private void tiempom_Tick(object sender, EventArgs e)
         {
-            
+            tiempom.Interval = velocidad;
             recorrido(monstruos,vidas);
             comprobarjohn();
             
@@ -216,6 +244,8 @@ private void barma_Click(object sender, EventArgs e)
                             if (vidas[i].Value == 0)
                             {
                                 m.Visible = false;
+                                monstrest--;
+                                lbmonstruos.Text = "Quedan" + monstrest;
                                 vidas[i].Visible = false;
                             }
                         }
@@ -229,7 +259,7 @@ private void barma_Click(object sender, EventArgs e)
         {
             foreach(Label m in monstruos)
             {
-                if (m.Location.X >= 849)
+                if (m.Location.X >= 849 && m.Visible)
                 {
                     if (pbjohn.Value >= 2)
                     {
@@ -259,6 +289,11 @@ private void barma_Click(object sender, EventArgs e)
             {
                 barma.Left = mover;
             }
+        }
+
+        private void lbmonstruos_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
