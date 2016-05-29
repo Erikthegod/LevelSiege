@@ -33,6 +33,7 @@ namespace LevelSiege
         {
             InitializeComponent();
             tiempom.Enabled = false;
+            
         }
 
 
@@ -52,19 +53,21 @@ namespace LevelSiege
         }
         public void crearmonstruos()
         {
-
-            tiempom.Enabled = true;
-            monstruo = new Label();
-            monstruo.Image = Properties.Resources.monstruito;
-            monstruo.BackColor = Color.Transparent;
-            monstruo.SetBounds(x, y, 50, 50);
-            monstruos.Add(monstruo);
-            d.Controls.Add(monstruo);
-            vida = new ProgressBar();
-            vida.Value = 100;
-            vida.SetBounds(xv, yv, 50, 3);
-            vidas.Add(vida);
-            d.Controls.Add(vida);
+            if (monstruos.Capacity < 10)
+            {
+                tiempom.Enabled = true;
+                monstruo = new Label();
+                monstruo.Image = Properties.Resources.monstruito;
+                monstruo.BackColor = Color.Transparent;
+                monstruo.SetBounds(x, y, 50, 50);
+                monstruos.Add(monstruo);
+                d.Controls.Add(monstruo);
+                vida = new ProgressBar();
+                vida.Value = 100;
+                vida.SetBounds(xv, yv, 50, 3);
+                vidas.Add(vida);
+                d.Controls.Add(vida);
+            }
 
         }
 
@@ -98,6 +101,7 @@ private void barma_Click(object sender, EventArgs e)
         {
             
             recorrido(monstruos,vidas);
+            comprobarjohn();
             
         }
         private void recorrido(List<Label> monstruos,List<ProgressBar> vidas)
@@ -219,6 +223,26 @@ private void barma_Click(object sender, EventArgs e)
                     }
                 }
                 i++;
+            }
+        }
+        public void comprobarjohn()
+        {
+            foreach(Label m in monstruos)
+            {
+                if (m.Location.X >= 849)
+                {
+                    if (pbjohn.Value >= 2)
+                    {
+                        pbjohn.Value = pbjohn.Value - 2;
+                    }
+                        if (pbjohn.Value == 0)
+                        {
+                            pbjohn.Visible = false;
+                        paneljohn.BackgroundImage = Properties.Resources.headstone_312540_960_720;
+                        break;
+
+                    }
+                }
             }
         }
 

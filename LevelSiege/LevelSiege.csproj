@@ -122,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="levelsiege.ico" />
+    <None Include="Resources\headstone-312540_960_720.png" />
     <None Include="Resources\laser.wav" />
     <None Include="Resources\monstruito.png" />
     <None Include="Resources\disparo.png" />

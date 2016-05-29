@@ -31,12 +31,13 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JUEGO));
             this.d = new System.Windows.Forms.Panel();
+            this.paneljohn = new System.Windows.Forms.Panel();
             this.barma = new System.Windows.Forms.Button();
             this.tiempod = new System.Windows.Forms.Timer(this.components);
             this.tiempom = new System.Windows.Forms.Timer(this.components);
             this.crear = new System.Windows.Forms.Timer(this.components);
             this.compcoli = new System.Windows.Forms.Timer(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pbjohn = new System.Windows.Forms.ProgressBar();
             this.d.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +46,8 @@
             this.d.AutoSize = true;
             this.d.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("d.BackgroundImage")));
             this.d.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.d.Controls.Add(this.panel1);
+            this.d.Controls.Add(this.pbjohn);
+            this.d.Controls.Add(this.paneljohn);
             this.d.Controls.Add(this.barma);
             this.d.Location = new System.Drawing.Point(2, 0);
             this.d.Name = "d";
@@ -54,9 +56,19 @@
             this.d.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.d.MouseMove += new System.Windows.Forms.MouseEventHandler(this.d_MouseMove);
             // 
+            // paneljohn
+            // 
+            this.paneljohn.BackColor = System.Drawing.Color.Transparent;
+            this.paneljohn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("paneljohn.BackgroundImage")));
+            this.paneljohn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.paneljohn.Location = new System.Drawing.Point(892, 139);
+            this.paneljohn.Name = "paneljohn";
+            this.paneljohn.Size = new System.Drawing.Size(69, 64);
+            this.paneljohn.TabIndex = 1;
+            // 
             // barma
             // 
-            this.barma.Font = new System.Drawing.Font("Nasalization", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barma.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barma.Location = new System.Drawing.Point(273, 313);
             this.barma.Name = "barma";
             this.barma.Size = new System.Drawing.Size(75, 23);
@@ -84,15 +96,13 @@
             this.compcoli.Enabled = true;
             this.compcoli.Tick += new System.EventHandler(this.compcoli_Tick);
             // 
-            // panel1
+            // pbjohn
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(892, 139);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(69, 64);
-            this.panel1.TabIndex = 1;
+            this.pbjohn.Location = new System.Drawing.Point(892, 123);
+            this.pbjohn.Name = "pbjohn";
+            this.pbjohn.Size = new System.Drawing.Size(69, 10);
+            this.pbjohn.TabIndex = 2;
+            this.pbjohn.Value = 100;
             // 
             // JUEGO
             // 
@@ -118,6 +128,7 @@
         private System.Windows.Forms.Timer tiempom;
         private System.Windows.Forms.Timer crear;
         private System.Windows.Forms.Timer compcoli;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel paneljohn;
+        private System.Windows.Forms.ProgressBar pbjohn;
     }
 }
