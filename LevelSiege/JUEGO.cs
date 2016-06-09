@@ -234,27 +234,32 @@ private void barma_Click(object sender, EventArgs e)
             {
                 foreach (Label d in disparos)
                 {
-                    if (d.Location.Y >= (m.Location.Y - 50) && d.Location.Y <= m.Location.Y && (d.Location.X >= m.Location.X && d.Location.X <= (m.Location.X +50) || (d.Location.X+50) >= (m.Location.X) && (d.Location.X + 50) <= (m.Location.X+50) || d.Location.X >= m.Location.X && d.Location.X <= (m.Location.X + 50) &&(d.Location.X + 50) >= (m.Location.X) && (d.Location.X + 50) <= (m.Location.X + 50)))
+                    if (d.Location.Y >= (m.Location.Y - 50) && d.Location.Y <= m.Location.Y && (d.Location.X >= m.Location.X && d.Location.X <= (m.Location.X +50) || (d.Location.X+50) >= (m.Location.X) && (d.Location.X + 50) <= (m.Location.X+50) || d.Location.X >= m.Location.X && d.Location.X <= (m.Location.X + 50) &&(d.Location.X + 50) >= (m.Location.X) && (d.Location.X + 50) <= (m.Location.X + 50))&& d.Visible)
                     {
+                        if (m.Visible == true)
+                        {
+                            d.Visible = false;
+                        }
                         //para que no de errorrrrrrrrrr
                         if (vidas[i].Value >= 10)
                         {
                             vidas[i].Value = vidas[i].Value - 10;
-
+                        }
                             if (vidas[i].Value == 0)
                             {
-                                m.Visible = false;
-                                monstrest--;
-                                lbmonstruos.Text = "Quedan" + monstrest;
+                            
                                 vidas[i].Visible = false;
+                                m.Visible = false;
+                               
                             }
                         }
                                                           
                     }
-                }
                 i++;
             }
-        }
+                
+            }
+        
         public void comprobarjohn()
         {
             foreach(Label m in monstruos)

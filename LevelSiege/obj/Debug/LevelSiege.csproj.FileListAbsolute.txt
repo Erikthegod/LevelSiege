@@ -53,3 +53,14 @@ C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.ventanadejueg
 C:\Users\kinton\Desktop\LevelSiege\LevelSiege\obj\Debug\LevelSiege.csproj.GenerateResource.Cache
 C:\Users\kinton\Desktop\LevelSiege\LevelSiege\bin\Debug\LevelSiege.exe
 C:\Users\kinton\Desktop\LevelSiege\LevelSiege\bin\Debug\LevelSiege.pdb
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\bin\Debug\LevelSiege.exe.config
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\obj\Debug\LevelSiege.exe
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\obj\Debug\LevelSiege.pdb
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\obj\Debug\LevelSiege.csprojResolveAssemblyReference.cache
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\obj\Debug\LevelSiege.JUEGO.resources
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\obj\Debug\LevelSiege.titulo.resources
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\obj\Debug\LevelSiege.Properties.Resources.resources
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\obj\Debug\LevelSiege.ventanadejuego.resources
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\obj\Debug\LevelSiege.csproj.GenerateResource.Cache
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\bin\Debug\LevelSiege.exe
+C:\Users\dam\Desktop\LevelSiege-master\LevelSiege\bin\Debug\LevelSiege.pdb
